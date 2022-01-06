@@ -22,7 +22,7 @@
             android:layout_width="50dp"
             android:layout_height="45dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/back" />
+            app:srcCompat="@drawable/backpng" />
 
         <TextView
             android:id="@+id/textView"
@@ -42,7 +42,7 @@
             android:layout_width="50dp"
             android:layout_height="45dp"
             android:layout_weight="1"
-            app:srcCompat="@drawable/forward" />
+            app:srcCompat="@drawable/donepng" />
     </LinearLayout>
 
     <LinearLayout

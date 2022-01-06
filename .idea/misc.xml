@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/ASJ_Team1/app/src/main/res/font/montserrat_bold.xml" value="0.18425925925925926" />
+        <entry key="..\:/ASJ_Team1/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/ASJ_Team1/app/src/main/res/layout/activity_main2.xml" value="0.264" />
+        <entry key="..\:/ASJ_Team1/app/src/main/res/layout/activity_main3.xml" value="0.25416666666666665" />
+        <entry key="..\:/ASJ_Team1/app/src/main/res/layout/activity_main4.xml" value="0.4" />
         <entry key="..\:/Medico/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Medico/app/src/main/res/layout/activity_main2.xml" value="0.25416666666666665" />
         <entry key="..\:/saim/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
