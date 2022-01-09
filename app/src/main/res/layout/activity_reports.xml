@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".reports">
+
 
     <TextView
 
@@ -14,114 +15,49 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="3dp"
         android:layout_marginEnd="3dp"
-        android:layout_marginBottom="80dp"
         android:background="#FFFFFF"
-        android:text=" BIOMEDICAL WASTE AUDIT"
+        android:text=" BIOMEDICAL WASTE REPORTS"
         android:textAlignment="center"
         android:textColor="#000000"
         android:textSize="22sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/imageButton"
-        android:layout_width="59dp"
+        android:layout_width="50dp"
         android:layout_height="40dp"
         android:layout_marginTop="3dp"
-        android:layout_marginBottom="70dp"
         android:background="#FFFFFF"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
         app:srcCompat="?attr/actionModeCloseDrawable"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
 
-    <EditText
-        android:id="@+id/editTextDate"
-        android:layout_width="212dp"
-        android:layout_height="35dp"
-        android:background="#539fe5"
-        android:ems="10"
-        android:gravity="center_horizontal"
-        android:inputType="date"
-        android:text="03-JAN-2022"
-        android:textColor="#000000"
-        android:textSize="22sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="70dp"
-        android:layout_marginEnd="337dp"
-        android:text="BLOCK"
-        android:textColor="#0FA1E3"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="379dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:ems="10"
-        android:hint="BLOCK"
-        android:inputType="textPersonName"
-        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2"
-        tools:ignore="TouchTargetSizeCheck" />
-
-    <SearchView
-        android:id="@+id/editTextTextPersonName2"
-        android:layout_width="379dp"
-        android:layout_height="40dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="1dp"
-        android:ems="10"
-        android:hint="SEARCH"
-        android:inputType="textPersonName"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        tools:ignore="TouchTargetSizeCheck">
-
-    </SearchView>
-
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="409dp"
-        android:layout_height="400dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginBottom="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="674dp"
+        android:layout_marginBottom="19dp"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2">
+        app:layout_constraintTop_toBottomOf="@+id/imageButton">
 
 
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="400dp">
+            android:layout_height="660dp">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -442,37 +378,5 @@
             </LinearLayout>
         </ScrollView>
     </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/linearLayout2"
-        android:layout_width="409dp"
-        android:layout_height="100dp"
-        android:layout_marginStart="1dp"
-        android:layout_marginEnd="1dp"
-        android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
-
-        <Button
-            android:id="@+id/report"
-            android:layout_width="120dp"
-            android:layout_height="75dp"
-            android:layout_gravity="center_vertical"
-            android:layout_margin="45dp"
-            android:text="REPORTS"></Button>
-
-        <Button
-            android:id="@+id/logout"
-            android:layout_width="120dp"
-            android:layout_height="75dp"
-            android:layout_gravity="center_vertical"
-            android:layout_margin="30dp"
-            android:text="LOGOUT"></Button>
-
-
-    </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
